@@ -8,13 +8,13 @@ import FruitsDetails from './FruitsDetails';
 
 const MiddlePart = () => {
     return (
-        <div className='flex'>
-            <div className='hidden sm:flex'>
-                <div className="w-[80px] text-white lg:menu-horizontal">
+        <div className='flex bg-base-100'>
+            <div className='flex flex-col-reverse md:flex-row-reverse mt-36'>
+                <div className="w-16 text-white lg:menu-horizontal">
                     <ul className="menu rounded-box space-y-6">
                         <li>
-                            <a className='border-2 rounded-md  bg-[#e655271a]'>
-                                <img src={facebook} alt="" />
+                            <a className='border-2 rounded-s  bg-[#e655271a]'>
+                                <img className='w-16' src={facebook} alt="" />
                             </a>
                         </li>
                         <li>
