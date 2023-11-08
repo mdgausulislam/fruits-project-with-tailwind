@@ -1,6 +1,8 @@
 import React from 'react';
 import SideBar from '../Components/SideBar/SideBar';
 import LeftPart from '../Components/LeftPart/LeftPart';
+import { Outlet } from 'react-router-dom';
+import MiddlePart from '../Components/MiddlePart.jsx/MiddlePart';
 
 const MainLayout = () => {
     return (
@@ -14,7 +16,8 @@ const MainLayout = () => {
                         <LeftPart></LeftPart>
                     </div>
                     <div>
-                        <h1>ggggggg</h1>
+                        <MiddlePart></MiddlePart>
+                        <Outlet></Outlet>
                     </div>
                     <div>
                         <h1>jjjjj</h1>
