@@ -10,15 +10,15 @@ const LeftPart = () => {
     return (
         <div className="drawer lg:drawer-open">
             <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-            <div className="drawer-content flex flex-col justify-between">
+            <div className="drawer-content bg-base-100 mb-3 rounded-2xl flex flex-col justify-between">
                 {/* Page content here */}
-                <div className='flex justify-between items-center lg:hidden'>
+                <div className='flex justify-between items-center lg:hidden py-2 px-3'>
                     <div className='flex'>
                         <img src={dashMenu} alt="" />
                         <p className='ms-3'>Select Food Item</p>
                     </div>
                     <div>
-                        <label htmlFor="my-drawer-2" className="btn drawer-button"><img src={downMenu} alt="" /></label>
+                        <label htmlFor="my-drawer-2" className="bg-base-100 drawer-button "><img src={downMenu} alt="" /></label>
                     </div>
                 </div>
 
