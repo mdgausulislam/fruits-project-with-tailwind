@@ -1,9 +1,11 @@
 import React from 'react';
 import orange from '../../assets/banner/1.png'
+import Ratings from './Ratings';
+import SocialMedia from './SocialMedia';
 
 const FruitsDetails = () => {
     return (
-        <div className='bg-base-100 py-8 px-3'>
+        <div className='bg-base-100 py-8 px-3 rounded-2xl'>
             <div className="flex flex-col-reverse md:flex-row-reverse">
                 <img className='w-full md:w-1/2 lg:w-1/2 lg:ms-4 md:ms-4 mt-7' src={orange} alt="Album" />
                 <div>
@@ -24,16 +26,8 @@ const FruitsDetails = () => {
                 </div>
                 <img className='sm:w-full flex md:w-1/2 lg:w-1/2 mb-5' src={orange} alt="Album" />
             </div>
-            <div className='lg:hidden mt-10'>
-                <h1 className='font-bold text-2xl'>Was the helpful</h1>
-                <div className="rating mt-3">
-                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" checked />
-                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                </div>
-            </div>
+            <Ratings></Ratings>
+            <SocialMedia></SocialMedia>
         </div>
     );
 };

@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const SideBar = () => {
     return (
-        <div className="w-[65px] text-white hidden sm:flex">
+        <div className="w-[65px] text-white hidden sm:flex mt-20">
             <ul className="menu rounded-box space-y-9">
                 <li>
                     <a className='border-2 rounded-md  bg-[#e655271a]'>

@@ -33,7 +33,7 @@ const RightPart = () => {
                     <span className="label-text font-bold">Choose Vitamin Type</span>
                 </label>
                 <select className="select select-bordered">
-                    <option disabled selected>Pick one</option>
+                    <option disabled selected>All Vitamin</option>
                     <option>Star Wars</option>
                 </select>
             </div>
