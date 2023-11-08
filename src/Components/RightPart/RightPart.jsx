@@ -1,55 +1,52 @@
 import React from 'react';
+import textSquare from '../../assets/icon/text-square.svg'
+import dropdown from '../../assets/icon/dropdown.svg'
+
 
 const RightPart = () => {
     return (
-        <div>
-            <div className='w-full hidden lg:flex bg-white m-2 p-5 rounded-2xl'>
-                <div className='flex-row space-y-5'>
-                    <div className="navbar ">
-                        <div className="flex-1">
-                            <a className="btn btn-ghost normal-case text-xl">Settings</a>
-                        </div>
-                        <div className="flex-none">
-                            <ul className="menu menu-horizontal px-1">
-                                <li>
-                                    <details>
-                                        <summary> </summary>
-                                        <ul className="p-2 ">
-                                            <li><a>Link 1</a></li>
-                                            <li><a>Link 2</a></li>
-                                        </ul>
-                                    </details>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <label className="label">
-                        <span className="label-text">Pick the best fantasy franchise</span>
-                    </label>
-                    <input type="range" min={0} max="100" value="40" className="range range-error" />
-                    <div className="form-control w-full max-w-xs">
-                        <label className="label">
-                            <span className="label-text">Pick the best fantasy franchise</span>
-                        </label>
-                        <select className="select select-bordered">
-                            <option disabled selected>Pick one</option>
-                            <option>Star Wars</option>
-                            <option>Harry Potter</option>
-                            <option>Lord of the Rings</option>
-                            <option>Planet of the Apes</option>
-                            <option>Star Trek</option>
-                        </select>
-                    </div>
-
-                    <div className="form-control">
-                        <label className="label cursor-pointer">
-                            <span className="label-text">Remember me</span>
-                            <input type="checkbox" className="toggle" checked />
-                        </label>
-                    </div>
+        <div className='w-full bg-base-100 space-y-6 p-4 rounded-xl hidden lg:flex flex-col'>
+            <div className='space-y-4 p-3 border-2 rounded-lg '>
+            <div className='flex justify-between'>
+                <div className='flex'>
+                    <img src={textSquare} alt="" />
+                    <p>Settings</p>
+                </div>
+                <div>
+                    <img src={dropdown} alt="" />
                 </div>
             </div>
+
+            <div>
+                <div className='flex justify-between'>
+                    <h1>Paragraph</h1>
+                    <div>
+                        <h2>19</h2>
+                    </div>
+                </div>
+                <input type="range" min={0} max="100" value="40" className="range-error w-full" />
+            </div>
+
+
+            <div className="form-control w-full max-w-xs">
+                <label className="label">
+                    <span className="label-text font-bold">Choose Vitamin Type</span>
+                </label>
+                <select className="select select-bordered">
+                    <option disabled selected>Pick one</option>
+                    <option>Star Wars</option>
+                </select>
+            </div>
+            <div className="form-control">
+                <label className="label cursor-pointer">
+                    <span className="label-text">Turn Off Subtitle</span>
+                    <input type="checkbox" className="toggle" />
+                </label>
+            </div>
+            </div>
         </div>
+
+
     );
 };
 

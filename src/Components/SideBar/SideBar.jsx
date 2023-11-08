@@ -4,6 +4,7 @@ import dashboard from '../../assets/icon/dashboard-circle.svg'
 import frame1 from '../../assets/icon/Frame1.svg'
 import video from '../../assets/icon/video-replay.svg'
 import more from '../../assets/icon/more-01.svg'
+import { Link } from 'react-router-dom';
 
 const SideBar = () => {
     return (
@@ -15,9 +16,9 @@ const SideBar = () => {
                     </a>
                 </li>
                 <li>
-                    <a className='border-2 rounded-md'>
+                    <Link to='/page' className='border-2 rounded-md'>
                         <img src={dashboard} alt="" />
-                    </a>
+                    </Link>
                 </li>
                 <li>
                     <a className='border-2 rounded-md'>

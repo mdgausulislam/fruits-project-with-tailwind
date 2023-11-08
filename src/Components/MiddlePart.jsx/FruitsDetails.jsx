@@ -24,7 +24,7 @@ const FruitsDetails = () => {
                 </div>
                 <img className='sm:w-full flex md:w-1/2 lg:w-1/2 mb-5' src={orange} alt="Album" />
             </div>
-            <div className='lg:hidden'>
+            <div className='lg:hidden mt-10'>
                 <h1 className='font-bold text-2xl'>Was the helpful</h1>
                 <div className="rating mt-3">
                     <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />

@@ -3,6 +3,7 @@ import SideBar from '../Components/SideBar/SideBar';
 import LeftPart from '../Components/LeftPart/LeftPart';
 import { Outlet } from 'react-router-dom';
 import MiddlePart from '../Components/MiddlePart.jsx/MiddlePart';
+import RightPart from '../Components/RightPart/RightPart';
 
 const MainLayout = () => {
     return (
@@ -10,8 +11,8 @@ const MainLayout = () => {
             <div>
                 <SideBar></SideBar>
             </div>
-            <div className="w-full p-1 bg-[#EEF0F2] rounded-tl-3xl">
-                <div className="w-full lg:grid lg:grid-cols-[1fr,9fr,2fr] sm:grid-cols-1 gap-5">
+            <div className="w-full p-2 bg-[#EEF0F2] rounded-tl-3xl">
+                <div className="w-full lg:grid lg:grid-cols-[1fr,8fr,3fr] sm:grid-cols-1 gap-2">
                     <div>
                         <LeftPart></LeftPart>
                     </div>
@@ -20,7 +21,7 @@ const MainLayout = () => {
                         <Outlet></Outlet>
                     </div>
                     <div>
-                        <h1>jjjjj</h1>
+                        <RightPart></RightPart>
                     </div>
                 </div>
             </div>
