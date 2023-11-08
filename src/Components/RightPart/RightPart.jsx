@@ -5,7 +5,7 @@ import dropdown from '../../assets/icon/dropdown.svg'
 
 const RightPart = () => {
     return (
-        <div className='w-full bg-base-100 space-y-6 p-4 rounded-xl hidden lg:flex flex-col'>
+        <div className='w-full bg-base-100 space-y-6 p-4 rounded-2xl hidden lg:flex flex-col'>
             <div className='space-y-4 p-3 border-2 rounded-lg '>
             <div className='flex justify-between'>
                 <div className='flex'>

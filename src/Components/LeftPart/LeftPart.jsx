@@ -25,7 +25,7 @@ const LeftPart = () => {
             </div>
             <div className="drawer-side">
                 <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
-                <ul className="menu p-4 lg:w-80 bg-base-200 text-base-content">
+                <ul className="menu p-4 lg:w-80 bg-base-100 rounded-2xl text-base-content">
                     {/* Sidebar content here */}
 
                     <div className='flex-row space-y-5'>
@@ -44,7 +44,7 @@ const LeftPart = () => {
                     </div>
 
                     <div>
-                        <ul className="menu bg-base-200 rounded-box space-y-6">
+                        <ul className="menu rounded-box space-y-6">
                             <h1 className='font-semibold text-lg'>Fruits List</h1>
                             <li>
                                 <div className='flex border-2 border-[#E55527] p-4'>

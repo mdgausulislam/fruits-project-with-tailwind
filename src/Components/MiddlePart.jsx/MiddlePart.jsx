@@ -8,7 +8,7 @@ import FruitsDetails from './FruitsDetails';
 
 const MiddlePart = () => {
     return (
-        <div className='flex bg-base-100'>
+        <div className='flex bg-base-100 rounded-2xl'>
             <div className='flex flex-col-reverse md:flex-row-reverse mt-36'>
                 <div className="w-16 text-white lg:menu-horizontal">
                     <ul className="menu rounded-box space-y-6">

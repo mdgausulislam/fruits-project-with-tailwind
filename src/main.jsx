@@ -7,19 +7,19 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Main from './Layout/Main';
-import NewPAge from './Components/NewPAge';
+import NewPage from './Components/NewPAge';
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
-    children:[
-      {
-        path: "/page",
-        element: <NewPAge></NewPAge>,
-      }
-    ]
   },
+  {
+    path: "/page",
+    element: <NewPage></NewPage>,
+  }
+
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
