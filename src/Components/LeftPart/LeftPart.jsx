@@ -21,13 +21,11 @@ const LeftPart = () => {
                         <label htmlFor="my-drawer-2" className="bg-base-100 drawer-button "><img src={downMenu} alt="" /></label>
                     </div>
                 </div>
-
             </div>
             <div className="drawer-side">
                 <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
                 <ul className="menu p-4 lg:w-80 bg-base-100 rounded-2xl text-base-content">
                     {/* Sidebar content here */}
-
                     <div className='flex-row space-y-5'>
                         <div className="btn-group rounded-2xl p-2 border-2 border-[#e65527] bg-opacity-10 ">
                             <button className="font-bold text-[#E55527] px-10 bg-[#e655271a]">Fruits</button>
@@ -42,7 +40,6 @@ const LeftPart = () => {
                             </div>
                         </div>
                     </div>
-
                     <div>
                         <ul className="menu rounded-box space-y-6">
                             <h1 className='font-semibold text-lg'>Fruits List</h1>
@@ -54,7 +51,6 @@ const LeftPart = () => {
                                         <p>Vitamin C</p>
                                     </div>
                                 </div>
-
                             </li>
                             <li>
                                 <div className='flex p-4'>

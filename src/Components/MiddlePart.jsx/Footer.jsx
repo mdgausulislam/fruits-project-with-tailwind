@@ -7,12 +7,14 @@ import more from '../../assets/icon/more-01.svg'
 
 const Footer = () => {
     return (
-        <div className='flex mx-5 space-x-12 lg:hidden mt-6 sm:mx-auto mb-3' >
-            <img src={home} alt="" />
-            <img src={dashboard} alt="" />
-            <img src={frame1} alt="" />
-            <img src={video} alt="" />
-            <img src={more} alt="" />
+        <div className='text-center'>
+            <div className='flex items-center justify-center mx-5 space-x-12 lg:hidden mt-6 mb-3' >
+                <img src={home} alt="" />
+                <img src={dashboard} alt="" />
+                <img src={frame1} alt="" />
+                <img src={video} alt="" />
+                <img src={more} alt="" />
+            </div>
         </div>
     );
 };
