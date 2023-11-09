@@ -2,7 +2,8 @@ import React from 'react';
 import NavBar from '../Components/NavBar/NavBar';
 import { Outlet } from 'react-router-dom';
 import MainLayout from './MainLayout';
-import Footer from '../Components/MiddlePart.jsx/Footer';
+import SidebarHorizontal from '../Components/MiddlePart.jsx/SidebarHorizontal';
+
 
 const Main = () => {
     return (
@@ -10,7 +11,8 @@ const Main = () => {
             <NavBar></NavBar>
             <Outlet></Outlet>
             <MainLayout></MainLayout>
-            <Footer></Footer>
+            <SidebarHorizontal></SidebarHorizontal>
+            
         </div>
     );
 };
